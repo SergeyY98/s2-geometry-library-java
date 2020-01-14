@@ -11,6 +11,12 @@ dependencies {
 	testCompile group: 'pl.pragmatists', name: 'JUnitParams', version: '1.1.1'
 }
 
+test {
+    filter {
+        includeTestsMatching "*Test"
+    }
+}
+
 task wrapper(type: Wrapper) {
     gradleVersion = '1.11'
 }
