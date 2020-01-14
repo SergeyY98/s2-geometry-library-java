@@ -13,7 +13,7 @@ dependencies {
 
 test {
     filter {
-        includeTestsMatching "*Test"
+        includeTestsMatching "*Test.java"
     }
 }
 
