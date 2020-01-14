@@ -14,7 +14,7 @@ testImplementation 'org.junit.platform:junit-platform-commons:1.5.2'
 
 test {
     filter {
-        includeTestsMatching "*Test.java"
+        includeTestsMatching "*Test"
     }
 }
 
